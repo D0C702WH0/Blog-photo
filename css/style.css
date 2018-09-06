@@ -1,1 +1,38 @@
-test
+
+    /* Accueil */
+
+.banner{
+    max-width: 100%;
+}
+.row img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+.bantxt{
+    justify-content: center;
+}
+.inner-banner{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    color: white;
+    border:5px black;
+    text-shadow: 1px 1px 20px black;
+}
+
+.inner-banner h2{
+    font-size: 3vw;
+}
+
+.button{
+    background-color: #276A73;
+    color: white;
+}
+
+
+    /* Footer */
+
+/* .foot{
+    max-height: 90px;
+} */
