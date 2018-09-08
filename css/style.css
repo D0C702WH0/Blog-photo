@@ -5,11 +5,11 @@ body{
 }  
   
     /* HEADER */
-.navbar-brand{
+.navbar-brand h1{
     font-family: 'Arial Narrow';
 }
 @media screen and (max-width : 500px){
-    h1{
+     h1{
         font-size: 1.5em;
     }
 }
@@ -36,5 +36,10 @@ body{
     overflow-x: auto;
     width: auto;
     min-width: 300px;   
+}
+
+
+.card{
+    box-shadow: 3px 5px 10px;
 }
 
