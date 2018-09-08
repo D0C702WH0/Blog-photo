@@ -25,6 +25,10 @@ body{
 
     /* ACCUEIL ARTICLES */
 
+.ajout, .ligneArticle{
+    margin-top: 60px;
+}
+
 .modal-dialog{
     position: relative;
     display: table; /* This is important */ 
@@ -33,3 +37,4 @@ body{
     width: auto;
     min-width: 300px;   
 }
+
