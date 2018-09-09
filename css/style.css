@@ -1,14 +1,19 @@
 
 body{
-    margin-top: 56px;
+    margin-top: 155px;
     font-family: 'Roboto';
-}  
+}
 
   
     /* HEADER */
 
+nav{
+    background-color: #000000;
+}
+
 .navbar-brand h1{
     font-family: 'Arial Narrow';
+    color: white;
 }
 @media screen and (max-width : 500px){
      h1{
@@ -54,7 +59,9 @@ body{
 
 /* FOOTER */
 
-
+footer{
+    background-color: #000000;
+}
 .nav-list li {
     padding-top: 5px;
     padding-bottom: 5px;
