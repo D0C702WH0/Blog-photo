@@ -5,14 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
          <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!-- Popper JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
         <link rel= "stylesheet" type="text/css" href="css/style.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <title>Wildo Coda</title>
     </head>
     <body>
@@ -22,7 +16,7 @@
                     <a class="navbar-brand" href="#">
                         <img src="logo.png" width="70" height="70" alt="">
                     </a>
-                    <a class="navbar-brand" href="#"><h1>Wildo Coda's Blog</h1></a>
+                    <a class="navbar-brand" href="#"><h1>WILDO CODA'S BLOG</h1></a>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -30,19 +24,19 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">GALLERY</a>
+                            <a class="nav-link" href="gallery.html">GALLERY</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="about.html">ABOUT</a>
+                            <a class="nav-link" href="about.html">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="map.html">MAP</a>
+                            <a class="nav-link" href="map.html">MAP</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
+                            <a class="nav-link" href="contact.html">CONTACT</a>
                         </li>
                     </ul>
                 </div>            
@@ -53,16 +47,16 @@
             <!--Banner-->
 
 
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="4000">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="design/grande-roue.png" alt="First slide">
+                    <img class="d-block w-100" src="design/philarmonie.png" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="design/bateaux.png" alt="Second slide">
+                    <img class="d-block w-100" src="design/academie.png" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="design/notre-dame.png" alt="Third slide">
+                    <img class="d-block w-100" src="design/notredame2.png" alt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -73,34 +67,175 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
-              </div>
+            </div>
 
 
             <!--Banner END-->
-          
+
+
+
+            <!--Articles -->
+
+            <div class="container-fluid ajout">
+                <h2>Derniers ajouts</h2>
+            </div>
+              
+            <div class="container ligneArticle">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <div class="row justify-content-center">
+                            <div class="card btn col-offset-md-4 col-md-8" data-toggle="modal" data-target="#Modalorsay" style="width: 18rem;">
+                                <img class="card-img-top" src="images/miniature/orsaymini.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-text">Musée d'Orsay</h4>
+                                    <p>Ajouté le 15/08/2018</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="Modalorsay" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="Modalorsay">Musée d'Orsay</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="images/miniature/orsaymini.png" alt="photo">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <p>Le musée d’Orsay est un musée national inauguré en 1986, situé dans le 7e arrondissement de Paris le long de la rive gauche de la Seine. Il est installé dans l’ancienne gare d'Orsay, construite par Victor Laloux de 1898 à 1900 et réaménagée en musée sur décision du Président de la République Valéry Giscard d'Estaing. Ses collections présentent l’art occidental de 1848 à 1914, dans toute sa diversité : peinture, sculpture, arts décoratifs, art graphique, photographie, architecture, etc. Il est l’un des plus grands musées d’Europe.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <div class="row justify-content-center">
+                            <div class="card btn col-offset-md-4 col-md-8" data-toggle="modal" data-target="#Modaleiffel" style="width: 18rem;">
+                                <img class="card-img-top" src="images/miniature/Eiffel.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-text">Tour Eiffel</h4>
+                                    <p>Ajouté le 21/07/2018</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="Modaleiffel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="exampleModalLabel">Tour Eiffel</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="images/miniature/Eiffel.png" alt="photo">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <p>La tour Eiffel est une tour de fer puddlé de 324 mètres de hauteur (avec antennes) située à Paris, à l’extrémité nord-ouest du parc du Champ-de-Mars en bordure de la Seine dans le 7e arrondissement. Son adresse officielle est 5, avenue Anatole-France. Construite par Gustave Eiffel et ses collaborateurs pour l’Exposition universelle de Paris de 1889, et initialement nommée « tour de 300 mètres », ce monument est devenu le symbole de la capitale française, et un site touristique de premier plan : il s’agit du second site culturel français payant le plus visité en 2011, avec 7,1 millions de visiteurs dont 75 % d'étrangers en 2011, la cathédrale Notre-Dame de Paris étant en tête des monuments à l'accès libre avec 13,6 millions de visiteurs estimés3 mais il reste le monument payant le plus visité au monde4,note 1. Depuis son ouverture au public, elle a accueilli plus de 300 millions de visiteurs6.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container ligneArticle">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">                       
+                        <div class="card btn" data-toggle="modal" data-target="#Modallouvre">
+                            <img class="card-img-top" src="images/miniature/Louvre.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-text">Le Louvre</h4>
+                                <p>Ajouté le 15/08/2018</p>
+                            </div>
+                        </div>                  
+                        <div class="modal fade" id="Modallouvre" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="Modallouvre">La pyramides du Louvre</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="images/miniature/Louvre.png" alt="photo">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <p>La pyramide du Louvre est une pyramide constituée de verre et de métal, située au milieu de la cour Napoléon du musée du Louvre à Paris. Elle abrite l'entrée principale du musée. Elle a été inaugurée le 30 mars 1989 et ouverte au public le 1er avril 1989. Commandée par le président de la République François Mitterrand en 1983, la pyramide a été conçue par l'architecte sino-américain Ieoh Ming Pei. La structure métallique qui supporte le parement en verre est faite d'acier et d'aluminium et pèse 200 tonnes ; elle s'élève à 21,64 mètres sur une base carrée de 35,42 mètres de côté. Elle est recouverte de 603 losanges et de 70 triangles en verre et est la première grande construction à utiliser le verre feuilleté. Bien que la pyramide ait suscité une grande controverse lors de la présentation de son projet en 1984, elle est devenue au début du xxie siècle la troisième œuvre du Louvre la plus appréciée après La Joconde et la Vénus de Milo1.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <!--Articles END-->
+             
 
 
 
         </main>
 
         
-        <footer>
-            <div class="container-fluid bg-dark text-muted">
-                <div class="row foot">
-                    <div class="col-sm-5 container">
-                        <h4>A propos</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mi quam, tempus at dapibus ac, porta sit amet mauris. Morbi consectetur eros eget turpis sollicitudin, ut volutpat orci ultrices. Vestibulum pulvinar convallis eros.</p>
-                    </div>
-                    <div class="col-sm-5 container">
-                        <h4><a href="contact.html">Contact</a></h4>
-                    </div>
-                    <div class="col-sm-2 container">
-                        <div class="row"><a href=""><img src="https://via.placeholder.com/30x30" alt="Facebook"/>Facebook</a></div>
-                        <div class="row"><a href=""><img src="https://via.placeholder.com/30x30" alt="Twitter"/>Twitter</a></div>
-                        <div class="row"><a href=""><img src="https://via.placeholder.com/30x30" alt="Instagram"/>Instagram</a></div>
-                    </div>
+        <footer class="section footer-classic context-dark bg-light">
+            <div class="container">
+              <div class="row row-30">
+                <div class="col-md-4 col-xl-5">
+                  <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
+                    <p>Photographe indépendant, passionné par la ville</p>
+                    <!-- Rights-->
+                    <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>. </span><span>All Rights Reserved.</span></p>
+                  </div>
                 </div>
+                <div class="col-md-4">
+                  <h5>Contacts</h5>
+                  <dl class="contact-list">
+                    <dt>Address:</dt>
+                    <dd>19 Rue de Poissy 75005 Paris</dd>
+                  </dl>
+                  <dl class="contact-list">
+                    <dt>email:</dt>
+                    <dd><a href="mailto:#">Wildo-coda@gmail.com</a></dd>
+                  </dl>
+                  <dl class="contact-list">
+                    <dt>phones:</dt>
+                    <dd><a href="tel:#">+91 7568543012</a> <span>or</span> <a href="tel:#">+91 9571195353</a>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="col-md-4 col-xl-3">
+                  <h5>Links</h5>
+                  <ul class="nav-list">
+                    <li><a href="#">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="index.html">Blog</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Pricing</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
-        </footer>
+            <div class="row no-gutters social-container">
+              <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+              <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+              <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+              <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+            </div>
+          </footer>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
     </body>
 </html>
