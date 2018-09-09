@@ -25,7 +25,12 @@ body{
 
     /* ACCUEIL ARTICLES */
 
-.ajout, .ligneArticle{
+.ajout{
+    margin-top: 100px;
+    text-decoration: underline;
+}
+
+.ligneArticle{
     margin-top: 30px;
     margin-bottom: 30px;
 }
