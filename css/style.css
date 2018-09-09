@@ -26,7 +26,8 @@ body{
     /* ACCUEIL ARTICLES */
 
 .ajout, .ligneArticle{
-    margin-top: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .modal-dialog{
