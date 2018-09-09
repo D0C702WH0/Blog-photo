@@ -42,9 +42,42 @@
                 </div>            
             </nav>
         </header>
-        <main>
+        <main class="mb-5">
+            <form class="container w-50 mt-5 pt-5">
+                <h2>Contactez-Moi</h2>
+                <div class="form-group row">
+                    <label for="name" class="col-form-label col-md-2">Nom</label>
+                    <input type="text" name="name" class="form-control col-md-10" id="name"/>
+                </div>
+                <div class="form-group row">
+                    <label for="email" class="col-form-label col-md-2">@</label>
+                    <input type="email" name="email" class="form-control col-md-10" id="email"/>
+                </div>
+                <div class="form-group row">
+                    <label for="type" class="col-form-label col-md-2"></label>
+                    <select class="form-control col-md-10" id="type" ariadescribedby="typehelp">
+                        <option>Demande de renseignement</option>
+                        <option>Acheter une photographie</option>
+                        <option>Travailler avec Wildo</option>
+                    </select>
+                    <small id="typehelp" class="form-text text-muted offset-2">Sélectionnez votre type de demande</small>
+                </div>
+                <div class="form-group row">
+                    <label for="message" class="col-form-label col-lg-2">Votre message</label>
+                    <textarea id="message" class="form-control col-lg-10"></textarea>
+                </div>
+                <div class="form-check row">
+                    <div class="col-md-10 offset-2">                   
+                        <input id="newsletter" type="checkbox" class="form-check-input"/>
+                        <label for="newsletter" class="form-check-label">Je m'inscrit à la newsletter de Wildo</label>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="submit" class="col-form-label col-md-2"></label>
+                    <input id="submit" type="submit" value="Envoyer" class="form-control col-md-10"/>
+                </div>
 
-
+            </form>
         </main>
         <footer class="section footer-classic context-dark bg-light">
             <div class="container">
