@@ -1,7 +1,9 @@
 
 body{
-    margin-top: 155px;
+    margin-top: 82px;
     font-family: 'Roboto';
+    background: url("../images/testefond2.png") center fixed;
+    background-size: cover;
 }
 
   
@@ -28,9 +30,23 @@ nav{
 
     /* HEADER END*/
 
+    /* CAROUSEL*/
+
+.carousel{
+    border: solid 10px white;
+    box-shadow: 3px 5px 10px;
+}
+
+
+
+
+    /* CAROUSEL END*/
+
+
 
 
     /* ACCUEIL ARTICLES */
+
 
 .ajout{
     text-align: center;
