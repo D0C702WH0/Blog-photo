@@ -21,6 +21,9 @@ html{
     position: relative;
     min-height: 100%;
 }
+main{
+    margin-bottom: 150px;
+}
 
   /* GENERAL END*/
 
@@ -114,8 +117,6 @@ footer{
     width: 100%;
     position: absolute;
     bottom: 0;
-    width: 100%;
-
 }
 
 footer .row p{
