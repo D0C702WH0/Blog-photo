@@ -26,14 +26,18 @@ nav{
 
 .navbar-brand h1{
     font-family: 'Dhanikans Signature 2_dafont';
-    font-size: 3em;
+   
     color: white;
     text-shadow: 2px 4px 6px wheat;
 
 }
-@media screen and (max-width : 500px){
+
+h1{
+    font-size: 3em;
+}
+@media screen and (max-width : 475px){
      h1{
-        font-size: 1.5em;
+        font-size: 2em;
     }
 }
 
