@@ -43,7 +43,11 @@ h1{
 
 .nav-link {
     font-family: sans-serif;
-    font-size: 1.5vw !important;
+    font-size: 1.5em !important;
+}
+
+.navbar-collapse{
+    background-color: #000000;
 }
 
     /* HEADER END*/
