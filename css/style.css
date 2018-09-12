@@ -8,9 +8,12 @@
     src: url('../Dhanikans Signature 2_dafont.ttf');
 }
 
-.body_un{
+body{
     margin-top: 164px;
     font-family: 'Roboto';
+}
+
+.body_un{
     background: url("../images/testefond2.png") center fixed;
     background-size: cover;
 }
@@ -53,6 +56,9 @@ h1{
 }
 
     /* HEADER END*/
+
+
+    
 
     /* CAROUSEL*/
 
