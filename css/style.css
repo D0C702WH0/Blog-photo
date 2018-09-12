@@ -117,3 +117,7 @@ footer .row p{
     color: white;
 
 }
+
+img{
+    box-shadow: 2px 2px 2px black;
+}
