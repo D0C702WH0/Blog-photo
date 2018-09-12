@@ -1,20 +1,22 @@
 
    
    /* GENERAL */
+
+
 @font-face {
     font-family: "Dhanikans Signature 2_dafont";
     src: url('../Dhanikans Signature 2_dafont.ttf');
 }
-    /* GENERAL END*/
 
-
-
-body{
+.body_un{
     margin-top: 164px;
     font-family: 'Roboto';
     background: url("../images/testefond2.png") center fixed;
     background-size: cover;
 }
+
+
+  /* GENERAL END*/
 
   
     /* HEADER */
