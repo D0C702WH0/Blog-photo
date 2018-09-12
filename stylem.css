@@ -1,0 +1,28 @@
+.divMap {
+	background-color: white;
+	height: 100%;
+}
+
+.image {
+	display:block;
+	width: 1200px;
+	margin-left: 100px;
+}
+
+@media screen and (max-width: 1200px){
+	.image {
+		width: 800px;
+		margin-left: 70px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.image {
+		width: 500px;
+		margin-left: 30px;
+	}
+
+map .hover_area:hover {
+
+}
+

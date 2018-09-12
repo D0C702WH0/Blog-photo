@@ -8,8 +8,10 @@
         <link rel= "stylesheet" type="text/css" href="css/style.css"/>
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <title>Wildo Coda - Carte</title>
+        <script src="javascriptMap.js"></script>
+        <link rel="stylesheet" href="stylem.css" />
     </head>
-    <body>
+    <body onclick="WhereMouse(event);"> <!-- A retirer une fois la page fini -->
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                <div class="logo">
@@ -43,13 +45,17 @@
             </nav>
         </header>
         <main>
-          <div class="container">
-            <div class= "row">
-              <img src="images/paris-map-1.jpg" class="col">
-            </div>
+          <div class="divMap">
+              <img src="images/paris-map-1.jpg" usemap="#mapParis" class="image">            
+              <map name="mapParis">
+                <area class="hover_area" shape="rect" coords="781,289,899,468" href="index.html" data-toggle="tooltip" data-placement="top" data-image="//images/miniature/Louvre.png">
+                <area shape="rect" coords="228,122,360,257" href="index.html">
+                <area shape="poly" coords="464,174,442,378,397,505,435,504,448,469,497,468,516,509,540,501,497,371" href="index.html">
+                <area shape="rect" coords="527,245,762,321" href="index.html">
+              </map>
           </div>
           
-
+        
         </main>
         <footer class="section footer-classic context-dark bg-light">
             <div class="container">
