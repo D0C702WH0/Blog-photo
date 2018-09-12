@@ -1,4 +1,14 @@
 
+   
+   /* GENERAL */
+@font-face {
+    font-family: "Dhanikans Signature 2_dafont";
+    src: url('../Dhanikans Signature 2_dafont.ttf');
+}
+    /* GENERAL END*/
+
+
+
 body{
     margin-top: 164px;
     font-family: 'Roboto';
@@ -11,11 +21,15 @@ body{
 
 nav{
     background-color: #000000;
+    height: 100px;
 }
 
 .navbar-brand h1{
-    font-family: 'Arial Narrow';
+    font-family: 'Dhanikans Signature 2_dafont';
+    font-size: 3em;
     color: white;
+    text-shadow: 2px 4px 6px wheat;
+
 }
 @media screen and (max-width : 500px){
      h1{
@@ -23,9 +37,9 @@ nav{
     }
 }
 
-.nav-link{
-    font-family: 'Arial Narrow';
-    font-size: 1.5vw;
+.nav-link {
+    font-family: sans-serif;
+    font-size: 1.5vw !important;
 }
 
     /* HEADER END*/
