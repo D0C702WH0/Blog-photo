@@ -109,6 +109,22 @@ h1{
     margin-bottom: 30px;
 }
 
+.addScroll{
+    overflow-y:auto;
+    height: 200px;
+    display: none;
+}
+
+@media (max-width: 640px) {
+    .addScroll{
+        display: block;
+    }
+    .description{
+        display: none;
+    }
+    
+}
+
 
 .mobile-social-share {
     background: none repeat scroll 0 0 #EEEEEE;
