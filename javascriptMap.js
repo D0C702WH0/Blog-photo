@@ -3,7 +3,7 @@ function WhereMouse(event){
 	let Mouse_X = event.pageX;
 	let Mouse_Y = event.pageY;
 
-	console.log(Mouse_X-100 , Mouse_Y-160)
+	console.log(Mouse_X, Mouse_Y)
 	//console.log(transCoo(Mouse_X,vw(100)) , transCoo(Mouse_Y,vw(70.7)))
 } //A retirer uen fois la page terminée
 
