@@ -16,3 +16,9 @@ function vw(v) {
   return (v * w) / 100;
 } // conversion vw js
 
+function convert (chain,coef) {
+	return chain.split(",").map(x=>Math.round(parseInt(x)*coef)).join(",")
+}
+
+console.log(convert("305,138,445,193",0.714))
+// fonction convertion d'un ecran a un autre 
