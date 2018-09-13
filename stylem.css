@@ -3,8 +3,11 @@
 	height: 100%;
 }
 
+.map-m , .map-s , .map-xs {
+	display: none;		
+}
+
 .image {
-	display:block;
 	width: 1200px;
 	margin-left: 100px;
 }
