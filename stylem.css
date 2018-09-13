@@ -1,0 +1,47 @@
+.divMap {
+	background-color: white;
+	height: 100%;
+}
+
+.image {
+	display:block;
+	width: 1200px;
+	margin-left: 100px;
+}
+
+@media screen and (max-width: 1200px){
+	.image {
+		width: 900px;
+		margin-left: 70px;
+	}
+	.map-l , .map-s , .map-xs {
+		display: none;		
+	}
+	.map-m {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.image {
+		width: 700px;
+		margin-left: 30px;
+	}
+	.map-m , .map-l , .map-xs {
+		display: none;		
+	}
+	.map-s {
+		display: block;
+	}
+
+@media screen and (max-width: 700px){
+	.image {
+		width: 500px;
+		margin-left: 0px;
+	}
+	.map-m , .map-l , .map-s {
+		display: none;		
+	}
+	.map-xs {
+		display: block;
+	}
