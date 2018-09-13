@@ -1,46 +1,97 @@
 
+   
+   /* GENERAL */
+
+
+@font-face {
+    font-family: "Dhanikans Signature 2_dafont";
+    src: url('../Dhanikans Signature 2_dafont.ttf');
+}
+
 body{
-    margin-top: 155px;
+    margin-top: 164px;
     font-family: 'Roboto';
 }
+
+.body_un{
+    background: url("../images/testefond2.png") center fixed;
+    background-size: cover;
+}
+html{
+    position: relative;
+    min-height: 100%;
+}
+main{
+    margin-bottom: 150px;
+}
+
+  /* GENERAL END*/
 
   
     /* HEADER */
 
 nav{
     background-color: #000000;
+    height: 100px;
 }
 
 .navbar-brand h1{
-    font-family: 'Arial Narrow';
+    font-family: 'Dhanikans Signature 2_dafont';
+   
     color: white;
+    text-shadow: 2px 4px 6px wheat;
+
 }
-@media screen and (max-width : 500px){
+
+h1{
+    font-size: 3em;
+}
+@media screen and (max-width : 475px){
      h1{
-        font-size: 1.5em;
+        font-size: 2em;
     }
 }
 
-.nav-link{
-    font-family: 'Arial Narrow';
-    font-size: 1.5vw;
+.nav-link {
+    font-family: sans-serif;
+    font-size: 1.5em !important;
+}
+
+.navbar-collapse{
+    background-color: #000000;
 }
 
     /* HEADER END*/
 
 
+    
+
+    /* CAROUSEL*/
+
+.carousel{
+    border: solid 10px white;
+    box-shadow: 3px 5px 10px;
+}
+
+
+
+
+    /* CAROUSEL END*/
+
+
+
 
     /* ACCUEIL ARTICLES */
 
+
 .ajout{
-    margin-top: 100px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 80px;
     text-decoration: underline;
 }
 
-.ligneArticle{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+
 
 .modal-dialog{
     position: relative;
@@ -54,6 +105,8 @@ nav{
 
 .card{
     box-shadow: 3px 5px 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 
@@ -61,45 +114,15 @@ nav{
 
 footer{
     background-color: #000000;
-}
-.nav-list li {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.nav-list li a:hover:before {
-    margin-left: 0;
-    opacity: 1;
-    visibility: visible;
-}
-
-ul, ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.social-inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 100%;
-    padding: 23px;
-    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
 }
-.social-container .col {
-    border: 2px solid rgba(255, 255, 255, 0.1);
+
+footer .row p{
+    color : grey !important;
 }
-.nav-list li a:before {
-    content: "\f14f";
-    font: 400 21px/1 "Material Design Icons";
-    color: #4d6de6;
-    display: inline-block;
-    vertical-align: baseline;
-    margin-left: -28px;
-    margin-right: 7px;
-    opacity: 0;
-    visibility: hidden;
-    transition: .22s ease;
+.facebicon{
+    color: white;
+
 }
