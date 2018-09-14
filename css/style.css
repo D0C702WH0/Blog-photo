@@ -8,9 +8,16 @@
     src: url('../Dhanikans Signature 2_dafont.ttf');
 }
 
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url('../Montserrat-Light.ttf');
+}
+
+
+
 body{
     margin-top: 164px;
-    font-family: 'Roboto';
+    font-family: 'Montserrat-Light';
 }
 
 .body_un{
@@ -25,7 +32,7 @@ main{
     margin-bottom: 150px;
 }
 
-  /* GENERAL END*/
+   /* GENERAL END*/
 
   
     /* HEADER */
@@ -39,7 +46,6 @@ nav{
     font-family: 'Dhanikans Signature 2_dafont';
    
     color: white;
-    text-shadow: 2px 4px 6px wheat;
 
 
 }
@@ -48,15 +54,16 @@ h1{
     font-size: 3em;
 }
 
-@media screen and (max-width : 475px){
-     h1{
-        font-size: 2em;
-    }
-}
+
 
 .nav-link {
-    font-family: sans-serif;
+    font-family: "Montserrat-Light";
     font-size: 1.5em !important;
+}
+
+.nav-link:hover{
+    letter-spacing: 3px; /* Animation nav link */ 
+    transition: 300ms;
 }
 
 .navbar-collapse{
@@ -74,6 +81,13 @@ h1{
     border: solid 10px white;
     box-shadow: 3px 5px 10px;
 }
+
+@media (max-width: 640px) {
+    .carousel{
+     display: none;
+    }
+}
+
 
 
 
@@ -97,7 +111,7 @@ h1{
 
 .modal-dialog{
     position: relative;
-    display: table; /* This is important */ 
+    display: table; 
     overflow-y: auto;    
     overflow-x: auto;
     width: auto;
@@ -110,6 +124,137 @@ h1{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.addScroll{
+    overflow-y:auto;
+    height: 200px;
+    display: none;
+}
+
+@media (max-width: 640px) {
+    .addScroll{
+        display: block;
+    }
+    .description{
+        display: none;
+    }
+    
+}
+
+
+.mobile-social-share {
+    background: none repeat scroll 0 0 #EEEEEE;
+    display: block !important;
+    min-height: 70px !important;
+    margin: 50px 0;
+}
+
+
+.mobile-social-share h3 {
+    color: inherit;
+    float: left;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 25px 25px 0 25px;
+}
+
+.share-group {
+    float: right;
+    margin: 18px 25px 0 0;
+}
+
+.btn-group {
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.mobile-social-share ul {
+    float: right;
+    list-style: none outside none;
+    margin: 0;
+    min-width: 61px;
+    padding: 0;
+}
+
+.share {
+    min-width: 17px;
+}
+
+.shareul li{
+    text-align: center;
+}
+
+.mobile-social-share li {
+    display: block;
+    font-size: 18px;
+    list-style: none outside none;
+    margin-bottom: 3px;
+    margin-left: 4px;
+    margin-top: 3px;
+}
+
+.sharebt{
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+.btn-twitter {
+    background-color: #3399CC !important;
+    width: 92%;
+    color:#FFFFFF!important;
+}
+
+.btn-facebook {
+    background-color: #3D5B96 !important;
+    width: 92%;
+    color:#FFFFFF!important;
+}
+
+.btn-google {
+    background-color: #DD3F34 !important;
+    width: 92%;
+    color:#FFFFFF!important;
+}
+
+
+#socialShare {
+    max-width:59px;
+    margin-bottom:18px;
+}
+
+#socialShare > a{
+    padding: 6px 10px 6px 10px;
+}
+
+@media (max-width : 320px) {
+    #socialHolder{
+        padding-left:5px;
+        padding-right:5px;
+    }
+    
+    .mobile-social-share h3 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    #socialShare{
+        margin-left:5px;
+        margin-right:5px;
+    }
+    
+    .mobile-social-share h3 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width : 238px) {
+    .mobile-social-share h3 {
+        font-size: 12px;
+    }
+}
+
 
 
 /* FOOTER */
@@ -132,12 +277,25 @@ footer .row p{
 }
 .facebicon{
     color: white;
-
 }
 
-img{
-    box-shadow: 2px 2px 2px black;
+.twitter:hover{
+    transform: rotate(360deg); /* Animation logo */ 
+    transition: 1s ease-out;
 }
+
+.facebook:hover{
+    transform: rotate(360deg);
+    transition: 1s ease-out;
+}
+.instagram:hover{
+    transform: rotate(360deg);
+    transition: 1s ease-out;
+}
+.google:hover{
+    transform: rotate(360deg);
+    transition: 1s ease-out;
+
 
 /* ABOUT */
 
@@ -153,4 +311,10 @@ img{
 .titre
     {text-align: center;}
 
+
+}
+
+.shad{
+    box-shadow: 2px 2px 2px black;
+}
 

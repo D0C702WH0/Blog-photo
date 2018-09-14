@@ -3,7 +3,7 @@
 	height: 100%;
 }
 
-.map-m , .map-s , .map-xs {
+.map-m , .map-s , .map-xs , .map-smartphone{
 	display: none;		
 }
 
@@ -17,7 +17,7 @@
 		width: 900px;
 		margin-left: 70px;
 	}
-	.map-l , .map-s , .map-xs {
+	.map-l , .map-s , .map-xs , .map-smartphone{
 		display: none;		
 	}
 	.map-m {
@@ -30,7 +30,7 @@
 		width: 700px;
 		margin-left: 30px;
 	}
-	.map-m , .map-l , .map-xs {
+	.map-m , .map-l , .map-xs , .map-smartphone{
 		display: none;		
 	}
 	.map-s {
@@ -42,9 +42,21 @@
 		width: 500px;
 		margin-left: 0px;
 	}
-	.map-m , .map-l , .map-s {
+	.map-m , .map-l , .map-s , .map-smartphone{
 		display: none;		
 	}
 	.map-xs {
+		display: block;
+	}
+
+@media screen and (max-width: 500px){
+	.image {
+		width: 375px;
+		margin-left: 0px;
+	}
+	.map-m , .map-l , .map-s , .map-xs{
+		display: none;		
+	}
+	.map-smartphone {
 		display: block;
 	}
