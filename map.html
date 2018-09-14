@@ -15,7 +15,7 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
                <div class="logo">
-                    <a class="navbar-brand" href="#"><h1>Paris en scene</h1></a>
+                    <a class="navbar-brand" href="index.html"><img class="img-fluid" src="design/toureffeil7.png" width="320px" alt="logo"></a>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -42,6 +42,8 @@
             </nav>
         </header>
         <main>
+
+<!-- Map quand l'ecran est max-->
       		<div class="divMap map-l">
               	<img src="images/paris-map-1.jpg" usemap="#mapParis" class="image">            
       			<map name="mapParis">
@@ -52,6 +54,7 @@
           		</map>
   			</div>
 
+<!-- Map quand l'ecran est 1200px-->
       		<div class="divMap map-m">
               	<img src="images/paris-map-1.jpg" usemap="#mapParism" class="image">            
       			<map name="mapParism">
@@ -62,6 +65,7 @@
           		</map>
   			</div>
 
+<!-- Map quand l'ecran est 900px-->
       		<div class="divMap map-s">
               	<img src="images/paris-map-1.jpg" usemap="#mapPariss" class="image">            
       			<map name="mapPariss">
@@ -72,6 +76,7 @@
           		</map>
   			</div>
 
+<!-- Map quand l'ecran est 700px-->
       		<div class="divMap map-xs">
               	<img src="images/paris-map-1.jpg" usemap="#mapParisxs" class="image">            
       			<map name="mapParisxs">
@@ -82,7 +87,19 @@
           		</map>
   			</div>
 
+<!-- Map quand l'ecran est 500px-->
+      		<div class="divMap map-smartphone">
+              	<img src="images/paris-map-1.jpg" usemap="#mapParisSmartphone" class="image">            
+      			<map name="mapParisSmartphone">
+            		<area shape="rect" coords="77,28,88,47" data-toggle="modal" data-target="#modalNotreDame">
+            		<area shape="rect" coords="71,38,113,80" data-toggle="modal" data-target="#modalArc">
+            		<area shape="poly" coords="145,54,138,118,124,158,136,158,140,147,155,146,161,159,169,157,155,116" data-toggle="modal" data-target="#modalTourEffel">
+            		<area shape="rect" coords="68,31,99,43" data-toggle="modal" data-target="#modalLouvre">
+          		</map>
+  			</div>
 
+
+<!-- Modal de Notre Dame-->
 				<div class="modal fade" id="modalNotreDame" role="dialog">
     				<div class="modal-dialog">
         				<div class="modal-content ">        
@@ -99,6 +116,7 @@
 					</div>
 				</div>
 
+<!-- Modal de l'arc de Triomphe-->
 				<div class="modal fade" id="modalArc" role="dialog">
     				<div class="modal-dialog">
         				<div class="modal-content ">        
@@ -115,6 +133,7 @@
 					</div>
 				</div>
 
+<!-- Modal de la Tour Effel -->
 				<div class="modal fade" id="modalTourEffel" role="dialog">
     				<div class="modal-dialog">
         				<div class="modal-content ">        
@@ -131,6 +150,7 @@
 					</div>
 				</div>
 
+<!-- Modal du Louvre -->
 				<div class="modal fade" id="modalLouvre" role="dialog">
     				<div class="modal-dialog">
         				<div class="modal-content ">        
@@ -158,10 +178,10 @@
                 </div>
             </div>
             <div class="row no-gutters social-container">
-              <div class="col text-center"><a class="social-inner" href="https://www.facebook.com"><span class="icon mdi mdi-facebook "><img src="IcoMoon-Free-master/facebook-3-48.png" alt="icon"></span></a></div>
-              <div class="col text-center"><a class="social-inner" href="https://www.instagram.com/_jeremy_p_/"><span class="icon mdi mdi-instagram"><img src="IcoMoon-Free-master/instagram-48.png" alt="icon"></span></a></div>
-              <div class="col text-center"><a class="social-inner" href="https://twitter.com/?lang=fr"><span class="icon mdi mdi-twitter"><img src="IcoMoon-Free-master/twitter-3-48.png" alt="icon"></span></a></div>
-              <div class="col text-center"><a class="social-inner" href="https://accounts.google.com/"><span class="icon mdi mdi-google"><img src="IcoMoon-Free-master/google-plus-3-48.png" alt="icon"></span></a></div>
+              <div class="col text-center"><a class="social-inner" href="https://www.facebook.com"><span class="icon mdi mdi-facebook "><img src="IcoMoon-Free-master/facebook-3-48.png" alt="icon" class="twitter"></span></a></div>
+              <div class="col text-center"><a class="social-inner" href="https://www.instagram.com/_jeremy_p_/"><span class="icon mdi mdi-instagram"><img src="IcoMoon-Free-master/instagram-48.png" alt="icon" class="twitter"></span></a></div>
+              <div class="col text-center"><a class="social-inner" href="https://twitter.com/?lang=fr"><span class="icon mdi mdi-twitter"><img src="IcoMoon-Free-master/twitter-3-48.png" alt="icon" class="twitter"></span></a></div>
+              <div class="col text-center"><a class="social-inner" href="https://accounts.google.com/"><span class="icon mdi mdi-google"><img src="IcoMoon-Free-master/google-plus-3-48.png" alt="icon" class="twitter"></span></a></div>
             </div>
         </footer>
         <!-- jQuery library -->
