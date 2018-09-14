@@ -297,8 +297,24 @@ footer .row p{
     transition: 1s ease-out;
 
 
+/* ABOUT */
+
+.poulet{
+    margin-top: 65px;
+    }
+
+.text
+    {text-align: justify;
+
+}
+
+.titre
+    {text-align: center;}
+
+
 }
 
 .shad{
     box-shadow: 2px 2px 2px black;
 }
+
