@@ -8,9 +8,16 @@
     src: url('../Dhanikans Signature 2_dafont.ttf');
 }
 
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url('../Montserrat-Light.ttf');
+}
+
+
+
 body{
     margin-top: 164px;
-    font-family: 'Roboto';
+    font-family: 'Montserrat-Light';
 }
 
 .body_un{
@@ -25,7 +32,7 @@ main{
     margin-bottom: 150px;
 }
 
-  /* GENERAL END*/
+   /* GENERAL END*/
 
   
     /* HEADER */
@@ -39,7 +46,6 @@ nav{
     font-family: 'Dhanikans Signature 2_dafont';
    
     color: white;
-    text-shadow: 2px 4px 6px wheat;
 
 
 }
@@ -55,8 +61,13 @@ h1{
 }
 
 .nav-link {
-    font-family: sans-serif;
+    font-family: "Montserrat-Light";
     font-size: 1.5em !important;
+}
+
+.nav-link:hover{
+    letter-spacing: 3px;
+    transition: 300ms;
 }
 
 .navbar-collapse{
@@ -266,6 +277,25 @@ footer .row p{
 }
 .facebicon{
     color: white;
+}
+
+.twitter:hover{
+    transform: rotate(360deg);
+    transition: 1s ease-out;
+}
+
+.facebook:hover{
+    transform: rotate(360deg);
+    transition: 1s ease-out;
+}
+.instagram:hover{
+    transform: rotate(360deg);
+    transition: 1s ease-out;
+}
+.google:hover{
+    transform: rotate(360deg);
+    transition: 1s ease-out;
+
 
 }
 
