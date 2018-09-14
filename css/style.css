@@ -54,11 +54,7 @@ h1{
     font-size: 3em;
 }
 
-@media screen and (max-width : 475px){
-     h1{
-        font-size: 2em;
-    }
-}
+
 
 .nav-link {
     font-family: "Montserrat-Light";
@@ -85,6 +81,13 @@ h1{
     border: solid 10px white;
     box-shadow: 3px 5px 10px;
 }
+
+@media (max-width: 640px) {
+    .carousel{
+     display: none;
+    }
+}
+
 
 
 
@@ -180,9 +183,6 @@ h1{
     min-width: 17px;
 }
 
-.shareul{
-    max-width: 10px !important;
-}
 .shareul li{
     text-align: center;
 }
