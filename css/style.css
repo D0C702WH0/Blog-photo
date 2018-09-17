@@ -75,30 +75,45 @@ h1{
 
     
 
-    /* CAROUSEL*/
+    /* CAROUSEL ACCUEIL*/
 
-.carousel{
+.carouban{
     border: solid 10px white;
     box-shadow: 3px 5px 10px;
 }
 
 @media (max-width: 640px) {
-    .carousel{
+    .carouban{
      display: none;
     }
 }
+     /* CAROUSEL ACCUEIL*/
 
 
 
+     /* CAROUSEL GALLERIE*/
 
 
-    /* CAROUSEL END*/
+@media (min-width: 640px) {
+    .boutgauche{
+        margin-left: -20px;    
+    }
+    
+    .boutdroit{     
+        margin-right:-20px;      
+    }
+    .carougal{
+        width: 1600px;
+        height: 850px;
+    }  
+}
+
+    /* CAROUSEL GALLERIE END*/
 
 
 
 
     /* ACCUEIL ARTICLES */
-
 
 .ajout{
     text-align: center;
