@@ -94,19 +94,36 @@ h1{
      /* CAROUSEL GALLERIE*/
 
 
-@media (min-width: 640px) {
+@media (min-width:1024px) {
     .boutgauche{
-        margin-left: -20px;    
+        margin-left: -0.5vw;    
     }
     
     .boutdroit{     
-        margin-right:-20px;      
+        margin-right:-0.5vw;      
     }
     .carougal{
-        width: 1600px;
-        height: 850px;
+        width: 80vw;
+       
     }  
 }
+/* @media screen and (min-width:425px) and (max-width:1024px){
+    .boutgauche{
+        margin-left: -40px;    
+    }
+    
+    .boutdroit{     
+        margin-right:-40px;      
+    }
+    .carougal{
+        width: 800px;
+        height: 50px;
+    }  
+}
+
+} */
+
+
 
     /* CAROUSEL GALLERIE END*/
 
