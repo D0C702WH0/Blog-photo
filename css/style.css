@@ -94,18 +94,22 @@ h1{
      /* CAROUSEL GALLERIE*/
 
 
-@media (min-width: 640px) {
+@media (min-width:1024px) {
     .boutgauche{
-        margin-left: -20px;    
+        margin-left: -0.5vh;    
     }
     
     .boutdroit{     
-        margin-right:-20px;      
+        margin-right:-0.5vh;      
     }
     .carougal{
-        width: 1600px;
-        height: 850px;
-    }  
+        width: 80vw;
+       
+    }
+    .carougal>.item> img {
+        margin: 0 auto;
+        height: 900px;
+        }  
 }
 
     /* CAROUSEL GALLERIE END*/
