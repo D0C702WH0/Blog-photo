@@ -310,23 +310,19 @@ footer .row p{
 .google:hover{
     transform: rotate(360deg);
     transition: 1s ease-out;
+}
 
 
 /* ABOUT */
 
-.poulet{
-    margin-top: 65px;
-    }
+
 
 .text
     {text-align: justify;
 
 }
 
-.titre
-    {text-align: center;}
-
-
+.titre{text-align: center;
 }
 
 .shad{
