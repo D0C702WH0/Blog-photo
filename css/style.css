@@ -94,6 +94,8 @@ h1{
      /* CAROUSEL GALLERIE*/
 
 
+
+
 @media (min-width:1024px) {
     .boutgauche{
         margin-left: -0.5vh;    
@@ -111,6 +113,7 @@ h1{
         height: 900px;
         }  
 }
+
 
     /* CAROUSEL GALLERIE END*/
 
