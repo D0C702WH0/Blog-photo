@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang ="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel= "stylesheet" type="text/css" href="css/style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <title>Wildo Coda - Carte</title>
+        <link rel="stylesheet" href="styleResponsive.css" />
+    </head>
+    <body class ="body_un" onclick="WhereMouse(event);"> 
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+               <div class="logo">
+                    <a class="navbar-brand" href="index.html"><img class="img-fluid" src="design/toureffeil7.png" width="320px" alt="logo"></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">ACCUEIL </a>
+                        </li>
+                        <li class="nav-item me_nu">
+                            <a class="nav-link" href="gallery.html">GALERIE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">A PROPOS</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="map.html">CARTE <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>            
+            </nav>
+        </header>
+        <main>
+
+              	<img src="images/paris-map-1.jpg" usemap="#mapParis" class="image" width="1150" height="724">            
+      			<map name="mapParis">
+            		<area shape="rect" coords="749,247,858,410" data-toggle="modal" data-target="#modalNotreDame">
+            		<area shape="rect" coords="218,102,350,227" data-toggle="modal" data-target="#modalArc">
+            		<area shape="poly" coords="444,154,422,341,377,440,415,440,428,400,477,400,491,440,522,435,482,341" data-toggle="modal" data-target="#modalTourEffel">
+            		<area shape="rect" coords="500,205,732,280" data-toggle="modal" data-target="#modalLouvre">
+          		</map>
+
+
+<!-- Modal de Notre Dame-->
+				<div class="modal fade" id="modalNotreDame" role="dialog">
+    				<div class="modal-dialog">
+        				<div class="modal-content ">        
+							<div class="modal-body container">
+								<div class="row">
+									<img class="col-5" src="images/miniature/GalNui3.png" height="50%">
+									<p class="col-7">La cathédrale Notre-Dame de Paris, en forme courte Notre-Dame, est la cathédrale de l'archidiocèse de Paris, en France. Elle est située dans l'est de l'île de la Cité, dans le 4e arrondissement de Paris. Sa façade occidentale ...</p>	
+								</div>
+							</div>
+							<div class="modal-footer">
+								<a href="index.html"><button class="btn btn-outline-dark my-2 my-sm-0">Voir l'article complet</button><a/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+<!-- Modal de l'arc de Triomphe-->
+				<div class="modal fade" id="modalArc" role="dialog">
+    				<div class="modal-dialog">
+        				<div class="modal-content ">        
+							<div class="modal-body container">
+								<div class="row">
+									<img class="col-5" src="images/miniature/GalArch1.png" height="50%">
+									<p class="col-7">Un arc de triomphe, et plus généralement un arc monumental, est une structure libre monumentale enjambant une voie et utilisant la forme architecturale de l'arc avec un ou plusieurs passages voûtés. ...</p>	
+								</div>
+							</div>
+							<div class="modal-footer">
+								<a href="index.html"><button class="btn btn-outline-dark my-2 my-sm-0">Voir l'article complet</button><a/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+<!-- Modal de la Tour Effel -->
+				<div class="modal fade" id="modalTourEffel" role="dialog">
+    				<div class="modal-dialog">
+        				<div class="modal-content ">        
+							<div class="modal-body container">
+								<div class="row">
+									<img class="col-5" src="images/miniature/MapEiffelcarre.png" height="50%">
+									<p class="col-7">La tour Eiffel est une tour de fer puddlé de 324 mètres de hauteur (avec antennes) située à Paris, à l’extrémité nord-ouest du parc du Champ-de-Mars en bordure de la Seine dans le 7e arrondissement. Son adresse officielle est ...</p>	
+								</div>
+							</div>
+							<div class="modal-footer">
+								<a href="index.html"><button class="btn btn-outline-dark my-2 my-sm-0">Voir l'article complet</button><a/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+<!-- Modal du Louvre -->
+				<div class="modal fade" id="modalLouvre" role="dialog">
+    				<div class="modal-dialog">
+        				<div class="modal-content ">        
+							<div class="modal-body container">
+								<div class="row">
+									<img class="col-5" src="images/miniature/GalArch3.png" height="50%">
+									<p class="col-7">La pyramide du Louvre est une pyramide constituée de verre et de métal, située au milieu de la cour Napoléon du musée du Louvre à Paris. Elle abrite l'entrée principale du musée. Elle a été inaugurée le 30 mars 1989 et ...</p>	
+								</div>
+							</div>
+							<div class="modal-footer">
+								<a href="index.html"><button class="btn btn-outline-dark my-2 my-sm-0">Voir l'article complet</button><a/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		</div>   
+        </main>
+        <footer class="section pb-3">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <p>Photographe indépendant, passionné par la ville Lumière</p>
+                    <!-- Rights-->
+                    <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>. </span><span>All Rights Reserved.</span></p>               
+                </div>
+            </div>
+            <div class="row no-gutters social-container">
+              <div class="col text-center"><a class="social-inner" href="https://www.facebook.com"><span class="icon mdi mdi-facebook "><img src="IcoMoon-Free-master/facebook-3-48.png" alt="icon" class="twitter"></span></a></div>
+              <div class="col text-center"><a class="social-inner" href="https://www.instagram.com/_jeremy_p_/"><span class="icon mdi mdi-instagram"><img src="IcoMoon-Free-master/instagram-48.png" alt="icon" class="twitter"></span></a></div>
+              <div class="col text-center"><a class="social-inner" href="https://twitter.com/?lang=fr"><span class="icon mdi mdi-twitter"><img src="IcoMoon-Free-master/twitter-3-48.png" alt="icon" class="twitter"></span></a></div>
+              <div class="col text-center"><a class="social-inner" href="https://accounts.google.com/"><span class="icon mdi mdi-google"><img src="IcoMoon-Free-master/google-plus-3-48.png" alt="icon" class="twitter"></span></a></div>
+            </div>
+        </footer>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script src="jquery.rwdImageMaps.js"></script>
+        <script>$('img[usemap]').rwdImageMaps();</script>
+        <script src="javascriptMap.js"></script>
+    </body>
+</html>
