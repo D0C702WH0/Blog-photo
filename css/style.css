@@ -295,40 +295,63 @@ h1{
 
 footer{
     background-color: #000000;
-    width: 100%;
-    position: absolute;
+    color: grey; 
+    margin-top: 10px;
+    padding-top: 10px;}
+
+.cont-footer{
     bottom: 0;
-
+    display: flex;
+    justify-content: space-between;
 }
 
-footer .row p{
-    color : grey !important;
-
-}
-.facebicon{
-    color: white;
-
-}
-.facebicon{
-    color: white;
+.author{
+    border-radius: 5em;
+    width: auto;
+    height: 5em;
 }
 
-.twitter:hover{
-    transform: rotate(360deg); /* Animation logo */ 
-    transition: 1s ease-out;
+.photographer{
+    text-align: center;
+    padding-top: 10px;
 }
 
-.facebook:hover{
-    transform: rotate(360deg);
-    transition: 1s ease-out;
+.social{
+    display: flex;
+    margin-top: 3%;
 }
-.instagram:hover{
-    transform: rotate(360deg);
-    transition: 1s ease-out;
+
+.socialmedia{
+    padding: 10px;
+    height: 3em;
 }
-.google:hover{
-    transform: rotate(360deg);
-    transition: 1s ease-out;
+
+.socialmedia:hover{
+    transform: rotate(360deg);  
+    transition: 1s ease-in-out;
+}
+
+.droitdauteur{
+    text-align: center;
+    color: #373738;
+}
+
+
+@media (max-width: 640px){
+    footer{
+        padding-top: 1px;
+        
+    }
+    .cont-footer{
+        flex-direction: column; 
+    }
+    .social {
+        display: flex;
+        justify-content: center; 
+    }
+    .author{
+        display: none;
+    }
 }
 
 
