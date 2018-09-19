@@ -331,3 +331,19 @@ footer .row p{
     box-shadow: 2px 2px 2px black;
 }
 
+/* MAP */
+
+.imageMap {
+    max-width: 100%;
+    height: auto;
+}
+
+.imageTitre {
+    width: 306px;
+    }
+
+@media screen and (max-width: 430px){ 
+    .imageTitre {
+        width: 65vw;
+    }
+}
