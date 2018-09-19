@@ -384,3 +384,14 @@ footer .row p{
 h1{
     display: none;
 }
+
+.tofcontact{
+   box-shadow: 3px 5px 10px;    
+ }
+   
+ .imageMap{
+    max-width: 100%;
+    height: auto;
+  }
+
+
