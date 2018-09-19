@@ -342,6 +342,12 @@ footer .row p{
     box-shadow: 2px 2px 2px black;
 }
 
+/* CONTACT */
+
+.tofcontact{
+    box-shadow: 3px 5px 10px;
+}
+
 /* MAP */
 
 .imageMap {
