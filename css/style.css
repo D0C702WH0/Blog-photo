@@ -342,16 +342,44 @@ footer .row p{
     box-shadow: 2px 2px 2px black;
 }
 
-/* CONTACT */
 
-.tofcontact{
-    box-shadow: 3px 5px 10px;
+.h2
+{
+    display: none;
 }
 
-/* MAP */
+@media (max-width: 640px) {
+    .scrollAbout{
+        display: block;
+        overflow-x:auto;
+        height: 400px;
+        margin-bottom: 100px;
+ }
 
-.imageMap {
-    max-width: 100%;
-    height: auto;
+.images_petit {
+    width:200px;
+    height:200px;
 }
+
+.shoot {
+    display : none;
+}
+
+.images_shoot 
+{
+    display : none;
+    text-align: center;
+}
+
+.h2
+{   display: contents;
+    text-align: center;
+   
+}
+
+h1{
+    display: none;
+}
+
+
 
