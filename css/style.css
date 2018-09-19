@@ -46,8 +46,6 @@ nav{
     font-family: 'Dhanikans Signature 2_dafont';
    
     color: white;
-
-
 }
 
 h1{
@@ -69,6 +67,17 @@ h1{
 .navbar-collapse{
     background-color: #000000;
 }
+
+.imageTitre {
+    width: 306px;
+    }
+
+@media screen and (max-width: 430px){ 
+    .imageTitre {
+        width: 65vw;
+    }
+}
+
 
     /* HEADER END*/
 
@@ -332,6 +341,7 @@ footer .row p{
 .shad{
     box-shadow: 2px 2px 2px black;
 }
+
 
 .h2
 {
