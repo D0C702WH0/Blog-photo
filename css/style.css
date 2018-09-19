@@ -122,7 +122,14 @@ h1{
 
     /* CAROUSEL GALLERIE END*/
 
+    /* MAP */
+.imageMap{
+    max-width: 100%;
+    height: auto;
+}
 
+
+    /* MAP END */
 
 
     /* ACCUEIL ARTICLES */
