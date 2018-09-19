@@ -335,7 +335,6 @@ footer .row p{
 /* ABOUT */
 
 
-
 .text
     {text-align: justify;
 
@@ -347,7 +346,6 @@ footer .row p{
 .shad{
     box-shadow: 2px 2px 2px black;
 }
-
 
 .h2
 {
@@ -386,6 +384,3 @@ footer .row p{
 h1{
     display: none;
 }
-
-
-
