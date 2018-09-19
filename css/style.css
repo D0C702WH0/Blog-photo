@@ -21,7 +21,7 @@ body{
 }
 
 .body_un{
-    background: url("../images/testefond2.png") center fixed;
+    background: url("../images/testefond3.png") center fixed;
     background-size: cover;
 }
 html{
@@ -78,7 +78,6 @@ h1{
     }
 }
 
-
     /* HEADER END*/
 
 
@@ -123,7 +122,14 @@ h1{
 
     /* CAROUSEL GALLERIE END*/
 
+    /* MAP */
+.imageMap{
+    max-width: 100%;
+    height: auto;
+}
 
+
+    /* MAP END */
 
 
     /* ACCUEIL ARTICLES */
@@ -289,45 +295,67 @@ h1{
 
 footer{
     background-color: #000000;
-    width: 100%;
-    position: absolute;
+    color: grey; 
+    margin-top: 10px;
+    padding-top: 10px;}
+
+.cont-footer{
     bottom: 0;
-
+    display: flex;
+    justify-content: space-between;
 }
 
-footer .row p{
-    color : grey !important;
-
-}
-.facebicon{
-    color: white;
-
-}
-.facebicon{
-    color: white;
+.author{
+    border-radius: 5em;
+    width: auto;
+    height: 5em;
 }
 
-.twitter:hover{
-    transform: rotate(360deg); /* Animation logo */ 
-    transition: 1s ease-out;
+.photographer{
+    text-align: center;
+    padding-top: 10px;
 }
 
-.facebook:hover{
-    transform: rotate(360deg);
-    transition: 1s ease-out;
+.social{
+    display: flex;
+    margin-top: 3%;
 }
-.instagram:hover{
-    transform: rotate(360deg);
-    transition: 1s ease-out;
+
+.socialmedia{
+    padding: 10px;
+    height: 3em;
 }
-.google:hover{
-    transform: rotate(360deg);
-    transition: 1s ease-out;
+
+.socialmedia:hover{
+    transform: rotate(360deg);  
+    transition: 1s ease-in-out;
+}
+
+.droitdauteur{
+    text-align: center;
+    color: #373738;
+}
+
+
+@media (max-width: 640px){
+    footer{
+        padding-top: 1px;
+        
+    }
+    .cont-footer{
+        flex-direction: column; 
+    }
+    .social {
+        display: flex;
+        justify-content: center; 
+    }
+    .author{
+        display: none;
+    }
 }
 
 
 /* ABOUT */
-
 
 
 .text
@@ -342,16 +370,51 @@ footer .row p{
     box-shadow: 2px 2px 2px black;
 }
 
-/* CONTACT */
+.h2
+{
+    display: none;
+}
+
+@media (max-width: 640px) {
+    .scrollAbout{
+        display: block;
+        overflow-x:auto;
+        height: 400px;
+        margin-bottom: 100px;
+ }
+
+.images_petit {
+    width:200px;
+    height:200px;
+}
+
+.shoot {
+    display : none;
+}
+
+.images_shoot 
+{
+    display : none;
+    text-align: center;
+}
+
+.h2
+{   display: contents;
+    text-align: center;
+   
+}
+
+h1{
+    display: none;
+}
 
 .tofcontact{
-    box-shadow: 3px 5px 10px;
-}
-
-/* MAP */
-
-.imageMap {
+   box-shadow: 3px 5px 10px;    
+ }
+   
+ .imageMap{
     max-width: 100%;
     height: auto;
-}
+  }
+
 
