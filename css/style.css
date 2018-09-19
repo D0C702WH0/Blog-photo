@@ -68,6 +68,17 @@ h1{
     background-color: #000000;
 }
 
+.imageTitre {
+    width: 306px;
+    }
+
+@media screen and (max-width: 430px){ 
+    .imageTitre {
+        width: 65vw;
+    }
+}
+
+
     /* HEADER END*/
 
 
@@ -338,12 +349,3 @@ footer .row p{
     height: auto;
 }
 
-.imageTitre {
-    width: 306px;
-    }
-
-@media screen and (max-width: 430px){ 
-    .imageTitre {
-        width: 65vw;
-    }
-}
