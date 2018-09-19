@@ -46,19 +46,13 @@ nav{
     font-family: 'Dhanikans Signature 2_dafont';
    
     color: white;
-
-
 }
 
 h1{
     font-size: 3em;
 }
 
-@media screen and (max-width : 475px){
-     h1{
-        font-size: 2em;
-    }
-}
+
 
 .nav-link {
     font-family: "Montserrat-Light";
@@ -79,23 +73,49 @@ h1{
 
     
 
-    /* CAROUSEL*/
+    /* CAROUSEL ACCUEIL*/
 
-.carousel{
+.carouban{
     border: solid 10px white;
     box-shadow: 3px 5px 10px;
 }
 
+@media (max-width: 640px) {
+    .carouban{
+     display: none;
+    }
+}
+     /* CAROUSEL ACCUEIL*/
 
 
 
-    /* CAROUSEL END*/
+     /* CAROUSEL GALLERIE*/
+
+
+@media (min-width:1024px) {
+    .boutgauche{
+        margin-left: -0.5vh;    
+    }
+    
+    .boutdroit{     
+        margin-right:-0.5vh;      
+    }
+    .carougal{
+        width: 80vw;
+       
+    }
+    .carougal>.item> img {
+        margin: 0 auto;
+        height: 900px;
+        }  
+}
+
+    /* CAROUSEL GALLERIE END*/
 
 
 
 
     /* ACCUEIL ARTICLES */
-
 
 .ajout{
     text-align: center;
@@ -180,9 +200,6 @@ h1{
     min-width: 17px;
 }
 
-.shareul{
-    max-width: 10px !important;
-}
 .shareul li{
     text-align: center;
 }
@@ -295,10 +312,22 @@ footer .row p{
 .google:hover{
     transform: rotate(360deg);
     transition: 1s ease-out;
+}
 
 
+/* ABOUT */
+
+
+
+.text
+    {text-align: justify;
+
+}
+
+.titre{text-align: center;
 }
 
 .shad{
     box-shadow: 2px 2px 2px black;
 }
+
