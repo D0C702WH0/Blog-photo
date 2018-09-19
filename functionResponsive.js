@@ -1,0 +1,1 @@
+$('img[mapParis]').rwdImageMaps();
