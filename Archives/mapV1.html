@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang ="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel= "stylesheet" type="text/css" href="css/style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <title>Wildo Coda - Carte</title>
+        <script src="javascriptMap.js"></script>
+        <link rel="stylesheet" href="stylem.css" />
+    </head>
+    <body class ="body_un" onclick="WhereMouse(event);"> <!-- A retirer une fois la page fini -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+               <div class="logo">
+                    <a class="navbar-brand" href="index.html"><img class="img-fluid" src="design/toureffeil7.png" width="320px" alt="logo"></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">ACCUEIL </a>
+                        </li>
+                        <li class="nav-item me_nu">
+                            <a class="nav-link" href="gallery.html">GALERIE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">A PROPOS</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="map.html">CARTE <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>            
+            </nav>
+        </header>
+        <main>
+
+<!-- Map quand l'ecran est max-->
+      		<div class="divMap map-l">
+              	<img src="images/paris-map-1.jpg" usemap="#mapParis" class="image">            
+      			<map name="mapParis">
+            		<area shape="rect" coords="781,289,899,468" data-toggle="modal" data-target="#modalNotreDame">
+            		<area shape="rect" coords="228,122,360,257" data-toggle="modal" data-target="#modalArc">
+            		<area shape="poly" coords="464,174,442,378,397,505,435,504,448,469,497,468,516,509,540,501,497,371" data-toggle="modal" data-target="#modalTourEffel">
+            		<area shape="rect" coords="527,245,762,321" data-toggle="modal" data-target="#modalLouvre">
+          		</map>
+  			</div>
+
+<!-- Map quand l'ecran est 1200px-->
+      		<div class="divMap map-m">
+              	<img src="images/paris-map-1.jpg" usemap="#mapParism" class="image">            
+      			<map name="mapParism">
+            		<area shape="rect" coords="585,214,675,361" data-toggle="modal" data-target="#modalNotreDame">
+            		<area shape="rect" coords="170,89,270,200" data-toggle="modal" data-target="#modalArc">
+            		<area shape="poly" coords="347,130,331,283,298,378,336,352,373,351,387,382,405,376,373,278" data-toggle="modal" data-target="#modalTourEffel">
+            		<area shape="rect" coords="391,177,570,248" data-toggle="modal" data-target="#modalLouvre">
+          		</map>
+  			</div>
+
+<!-- Map quand l'ecran est 900px-->
+      		<div class="divMap map-s">
+              	<img src="images/paris-map-1.jpg" usemap="#mapPariss" class="image">            
+      			<map name="mapPariss">
+            		<area shape="rect" coords="456,167,526,282" data-toggle="modal" data-target="#modalNotreDame">
+            		<area shape="rect" coords="132,69,210,156" data-toggle="modal" data-target="#modalArc">
+            		<area shape="poly" coords="271,101,258,221,232,295,262,275,291,274,302,298,316,293,291,217" data-toggle="modal" data-target="#modalTourEffel">
+            		<area shape="rect" coords="305,138,445,193" data-toggle="modal" data-target="#modalLouvre">
+          		</map>
+  			</div>
+
+<!-- Map quand l'ecran est 700px-->
+      		<div class="divMap map-xs">
+              	<img src="images/paris-map-1.jpg" usemap="#mapParisxs" class="image">            
+      			<map name="mapParisxs">
+            		<area shape="rect" coords="326,119,376,201" data-toggle="modal" data-target="#modalNotreDame">
+            		<area shape="rect" coords="94,49,150,111" data-toggle="modal" data-target="#modalArc">
+            		<area shape="poly" coords="193,72,184,158,166,211,187,196,208,196,216,213,226,209,208,155" data-toggle="modal" data-target="#modalTourEffel">
+            		<area shape="rect" coords="218,99,318,138" data-toggle="modal" data-target="#modalLouvre">
+          		</map>
+  			</div>
+
+<!-- Map quand l'ecran est 500px-->
+      		<div class="divMap map-smartphone">
+              	<img src="images/paris-map-1.jpg" usemap="#mapParisSmartphone" class="image">            
+      			<map name="mapParisSmartphone">
+            		<area shape="rect" coords="77,28,88,47" data-toggle="modal" data-target="#modalNotreDame">
+            		<area shape="rect" coords="71,38,113,80" data-toggle="modal" data-target="#modalArc">
+            		<area shape="poly" coords="145,54,138,118,124,158,136,158,140,147,155,146,161,159,169,157,155,116" data-toggle="modal" data-target="#modalTourEffel">
+            		<area shape="rect" coords="68,31,99,43" data-toggle="modal" data-target="#modalLouvre">
+          		</map>
+  			</div>
+
+
+<!-- Modal de Notre Dame-->
+				<div class="modal fade" id="modalNotreDame" role="dialog">
+    				<div class="modal-dialog">
+        				<div class="modal-content ">        
+							<div class="modal-body container">
+								<div class="row">
+									<img class="col-5" src="images/miniature/GalNui3.png" height="50%">
+									<p class="col-7">Résumé de l'article</p>	
+								</div>
+							</div>
+							<div class="modal-footer">
+								<a href="index.html"><button class="btn btn-outline-success my-2 my-sm-0">Voir l'article complet</button><a/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+<!-- Modal de l'arc de Triomphe-->
+				<div class="modal fade" id="modalArc" role="dialog">
+    				<div class="modal-dialog">
+        				<div class="modal-content ">        
+							<div class="modal-body container">
+								<div class="row">
+									<img class="col-5" src="images/miniature/GalArch1.png" height="50%">
+									<p class="col-7">Résumé de l'article</p>	
+								</div>
+							</div>
+							<div class="modal-footer">
+								<a href="index.html"><button class="btn btn-outline-success my-2 my-sm-0">Voir l'article complet</button><a/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+<!-- Modal de la Tour Effel -->
+				<div class="modal fade" id="modalTourEffel" role="dialog">
+    				<div class="modal-dialog">
+        				<div class="modal-content ">        
+							<div class="modal-body container">
+								<div class="row">
+									<img class="col-5" src="images/miniature/MapEiffelcarre.png" height="50%">
+									<p class="col-7">Résumé de l'article</p>	
+								</div>
+							</div>
+							<div class="modal-footer">
+								<a href="index.html"><button class="btn btn-outline-success my-2 my-sm-0">Voir l'article complet</button><a/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+<!-- Modal du Louvre -->
+				<div class="modal fade" id="modalLouvre" role="dialog">
+    				<div class="modal-dialog">
+        				<div class="modal-content ">        
+							<div class="modal-body container">
+								<div class="row">
+									<img class="col-5" src="images/miniature/GalArch3.png" height="50%">
+									<p class="col-7">Résumé de l'article</p>	
+								</div>
+							</div>
+							<div class="modal-footer">
+								<a href="index.html"><button class="btn btn-outline-success my-2 my-sm-0">Voir l'article complet</button><a/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		</div>   
+        </main>
+        <footer class="section pb-3">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <p>Photographe indépendant, passionné par la ville Lumière</p>
+                    <!-- Rights-->
+                    <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>. </span><span>All Rights Reserved.</span></p>               
+                </div>
+            </div>
+            <div class="row no-gutters social-container">
+              <div class="col text-center"><a class="social-inner" href="https://www.facebook.com"><span class="icon mdi mdi-facebook "><img src="IcoMoon-Free-master/facebook-3-48.png" alt="icon" class="twitter"></span></a></div>
+              <div class="col text-center"><a class="social-inner" href="https://www.instagram.com/_jeremy_p_/"><span class="icon mdi mdi-instagram"><img src="IcoMoon-Free-master/instagram-48.png" alt="icon" class="twitter"></span></a></div>
+              <div class="col text-center"><a class="social-inner" href="https://twitter.com/?lang=fr"><span class="icon mdi mdi-twitter"><img src="IcoMoon-Free-master/twitter-3-48.png" alt="icon" class="twitter"></span></a></div>
+              <div class="col text-center"><a class="social-inner" href="https://accounts.google.com/"><span class="icon mdi mdi-google"><img src="IcoMoon-Free-master/google-plus-3-48.png" alt="icon" class="twitter"></span></a></div>
+            </div>
+        </footer>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    </body>
+</html>
