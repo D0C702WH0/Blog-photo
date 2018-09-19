@@ -20,5 +20,5 @@ function convert (chain,coef) {
 	return chain.split(",").map(x=>Math.round(parseInt(x)*coef)).join(",")
 }
 
-console.log(convert("305,138,445,193",0.714))
+console.log(convert("464,174,442,378,397,505,435,504,448,469,497,468,516,509,540,501,497,371",0.3125))
 // fonction convertion d'un ecran a un autre 
