@@ -67,7 +67,7 @@ h1{
     width: 306px;
     }
 
-@media screen and (max-width: 430px){ 
+@media screen and (max-width: 512px){ 
     .imageTitre {
         width: 65vw;
     }
@@ -134,7 +134,9 @@ h1{
     margin-top: 70px;
     margin-bottom: 80px;
     text-decoration: underline;
+   
 }
+
 
 
 
